@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_saved"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Saved" />
+        <item
+            android:id="@+id/nav_shared"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Shared" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_theme"
+                android:icon="@drawable/ic_baseline_nights_stay_24"
+                android:title="Night mode" />
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@drawable/ic_baseline_language_24"
+                android:title="Language"/>
+            <item
+                android:id="@+id/nav_our_apps"
+                android:icon="@drawable/ic_baseline_perm_device_information_24"
+                android:title="About us" />
+        </menu>
+    </item>
+</menu>
